@@ -16,7 +16,7 @@ import sys
 # import pdb
 # from scipy.stats import chi
 # import torchaudio
-
+from scipy.stats import chi 
 def q_normalize(input, channel=1):
 
     r = get_r(input)
