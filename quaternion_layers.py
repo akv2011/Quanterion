@@ -15,7 +15,7 @@ import torch.nn.functional  as F
 import torch.nn as nn
 from   torch.nn.parameter  import Parameter
 from   torch.nn import Module
-from   QuatNet.quaternion_ops import *
+from   quaternion_ops import *
 import math
 from typing import Any, Optional, TypeVar
 import sys
